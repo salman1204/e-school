@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header (navbar + banner)*/
+
+header {
+    background-color: #f0fff0;
+
+}
+
+header h1 {
+    font-weight: 600;
+}
+
+/* .navbar-nav a {
+    margin: 0 15px;
+} */
+
+
+.green-highlighter {
+    color: #21b573;
+
+}
+
+.green-btn {
+    background-color: #21b573;
+    color: #f0fff0;
+    font-weight: 300;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* sign-in button responsive */
+
+@media (max-width:991px) {
+    .sign-btn {
+
+        width: 100px;
+        display: inline-block;
+
+    }
+
+}

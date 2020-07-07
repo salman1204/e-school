@@ -8,15 +8,60 @@
     <!-- Bootstrap Link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Custon CSS Link  -->
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet" <!-- Custon CSS Link -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Header (navbar + banner) -->
+
+    <header>
+        <div class="container">
+
+            <!-- navbar -->
 
 
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/icon/Logo.png" height="45" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-right">
+                        <a class="nav-item nav-link  mx-2" href="#">Books <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link mx-2" href="#">Courses</a>
+                        <a class="nav-item nav-link mx-2" href="#">Others</a>
+                        <a class="nav-item nav-link mx-2" href="#">Blog</a>
+                        <button class="green-btn sign-btn align-self-end  ml-2">Sign in</button>
+                    </div>
+                </div>
+            </nav>
 
-    
+            <!-- Banner -->
+
+            <div class="row pt-lg-5">
+                <div class="col-lg-6 pt-5">
+                    <p class="text-danger">Are you ready to learn?</p>
+                    <h1 class="">Learn With fun <br> on <span class="green-highlighter">any schedule</span> </h1>
+                    <p class="font-weight-light text-muted text-justify mt-3">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Blanditiis obcaecati quo facilis et quam saepe.</p>
+                    <button class="green-btn">Get Started</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/photo/banner.png" alt="" class="img-fluid mb-5">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header (navbar + banner) -->
+
+
     <!-- Javascript  -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
