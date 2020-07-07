@@ -37,7 +37,12 @@ header h1 {
     padding: 5px 20px;
     border-radius: 20px;
     cursor: pointer;
+    opacity: 0.9;
 
+}
+
+.green-btn:hover {
+    opacity: 1;
 }
 
 /* sign-in button responsive */
@@ -71,12 +76,15 @@ header h1 {
     background-color: #F8FFFB;
     padding: 30px 0;
     margin-bottom: 10%;
+    opacity: 0.9;
+    transition: 0.3s;
 }
 
 .shadow:hover {
     box-shadow: 0 0 10px #E5E5E5;
     background-color: white;
     cursor: pointer;
+    opacity: 1;
 }
 
 /* info end */
@@ -88,6 +96,14 @@ header h1 {
     background-color: white;
     margin-top: 10%;
     cursor: pointer;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: #F8FFFB ;
+    opacity: 1;
 }
 
 .card img {
